@@ -7,7 +7,7 @@ export default ({ config }: { config: ExpoConfig }): ExpoConfig => {
     slug: "bank",
     version: "1.0.0",
     orientation: "portrait",
-    icon: "./assets/icons/icon.png",
+    icon: "./app/assets/icons/icon.png",
     scheme: "com.bank.invoices",
     userInterfaceStyle: "automatic",
     ios: {
@@ -15,7 +15,7 @@ export default ({ config }: { config: ExpoConfig }): ExpoConfig => {
     },
     android: {
       adaptiveIcon: {
-        foregroundImage: "./assets/icons/adaptive-icon.png",
+        foregroundImage: "./app/assets/icons/adaptive-icon.png",
         backgroundColor: "#102c2f",
       },
       package: "com.bank.invoices",
@@ -43,7 +43,7 @@ export default ({ config }: { config: ExpoConfig }): ExpoConfig => {
       [
         "expo-splash-screen",
         {
-          image: "./assets/icons/icon.png",
+          image: "./app/assets/icons/icon.png",
           imageWidth: 180,
           resizeMode: "contain",
           backgroundColor: "#102c2f",

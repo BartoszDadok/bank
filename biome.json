@@ -63,6 +63,6 @@
       "quoteStyle": "single",
       "attributePosition": "auto"
     },
-    "globals": ["React", "__DEV__", "GeoJSON"]
+    "globals": ["React", "__DEV__"]
   }
 }

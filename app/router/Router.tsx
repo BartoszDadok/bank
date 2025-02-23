@@ -22,9 +22,9 @@ preventAutoHideAsync();
 
 const Router = () => {
   const [loaded] = useFonts({
-    "Lato-Light": require("../../assets/fonts/LatoLight.ttf"),
-    "Lato-Regular": require("../../assets/fonts/LatoRegular.ttf"),
-    "Lato-Bold": require("../../assets/fonts/LatoBold.ttf"),
+    "Lato-Light": require("../assets/fonts/LatoLight.ttf"),
+    "Lato-Regular": require("../assets/fonts/LatoRegular.ttf"),
+    "Lato-Bold": require("../assets/fonts/LatoBold.ttf"),
   });
 
   useEffect(() => {
